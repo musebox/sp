@@ -62,6 +62,10 @@ hr {
 	width: 100%;
 }
 
+#menu {
+	display: none;
+}
+
 #menubox {
 	float: none;
 	position: fixed;
