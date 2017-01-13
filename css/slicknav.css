@@ -18,7 +18,7 @@
   *zoom: 1; }
   .slicknav_menu .slicknav_menutxt {
     display: block;
-    line-height: 1.188em;
+    line-height: 1.388em;
     float: left; }
   .slicknav_menu .slicknav_icon {
     float: left;
@@ -75,11 +75,16 @@
 .slicknav_brand {
   float: left; }
 
+/*メニューフォントサイズと角丸サイズ
+*/
 .slicknav_menu {
-  font-size: 16px;
-  box-sizing: border-box;
-  background: #4c4c4c;
-  padding: 5px; }
+	font-size: 1.8em;
+	box-sizing: border-box;
+	background: #449;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
   .slicknav_menu * {
     box-sizing: border-box; }
   .slicknav_menu .slicknav_menutxt {
@@ -90,13 +95,13 @@
     background-color: #fff; }
 
 .slicknav_btn {
-  margin: 5px 5px 6px;
+  margin: 3px 3px 4px;
   text-decoration: none;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  background-color: #222; }
+  background-color: #449; }
 
 .slicknav_nav {
   color: #fff;

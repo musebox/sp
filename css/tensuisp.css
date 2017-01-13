@@ -61,22 +61,39 @@ hr {
 .resizeimg img {
 	width: 100%;
 }
-
+#menuicon {
+	width: 90px;
+	float: none;
+	position: fixed;
+	margin-left: auto;
+	top: 0em;
+	right: 0em;
+	z-index: 999;
+	pointer-events: none;
+	background-color: none;
+}
+#menuicon img {
+	width: 100%;
+	pointer-events: none;
+}
 #menu {
 	display: none;
 }
-
 #menubox {
 	float: none;
 	position: fixed;
 	margin-left: auto;
-	top: 1em;
+	top: 1.2em;
 	right: 1em;
 	width: auto;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	z-index:998;
+	z-index: 997;
+	background-size: 100px 100px;
+	background-repeat: no-repeat;
+	background-origin: border-box;
+	background-attachment: fixed;
 }
 body h1 {
 	background: transparent;
@@ -86,7 +103,6 @@ body h1 img {
 }
 #logo {
 	width: 50%;
-	backgr: #999;
 	position: absolute;
 	margin-left: 1em;
 }
